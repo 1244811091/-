@@ -98,9 +98,11 @@
       <div class="class-title">人工知能入門</div>
       <div class="class-info">時間：16:50 - 18:30</div>
       <div class="class-info">教室：3220教室</div>
-<a class="material-link" href="https://rp.reitaku-u.ac.jp/uprx/up/jg/jga023/Jga02302.xhtml" target="_blank">
-  授業資料を開く（ログイン必要）
-</a>
+      <a class="material-link" href="https://rp.reitaku-u.ac.jp/uprx/up/jg/jga023/Jga02302.xhtml" target="_blank">
+        授業資料を開く（ログイン必要）
+      </a>
+    </div>
+  </div>
 
   <div class="footer">
     &copy; 2025 麗澤大学 学生ポータル
