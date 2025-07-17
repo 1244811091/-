@@ -122,7 +122,7 @@
   <div class="class-card">
     <div class="class-title">UX/UIデザイン</div>
     <div class="class-info">時間：10:40 - 12:20</div>
-    <div class="class-info">教室：3220教室</div>
+    <div class="class-info">教室：3202教室</div>
     <a class="material-link" href="https://rp.reitaku-u.ac.jp/"  target="_blank">授業資料を開く</a>
   </div>
 
@@ -136,7 +136,7 @@
   <div class="class-card">
     <div class="class-title">人工知能入門</div>
     <div class="class-info">時間：16:50 - 18:30</div>
-    <div class="class-info">教室：3220教室</div>
+    <div class="class-info">教室：3202教室</div>
     <a class="material-link" href="https://rp.reitaku-u.ac.jp/" target="_blank">授業資料を開く</a>
 </div>
 
