@@ -62,6 +62,11 @@
     .material-link:hover {
       background: #0056b3;
     }
+    .note {
+      font-size: 0.9rem;
+      color: #666;
+      margin-top: 8px;
+    }
     .footer {
       text-align: center;
       color: #888;
@@ -98,9 +103,10 @@
       <div class="class-title">人工知能入門</div>
       <div class="class-info">時間：16:50 - 18:30</div>
       <div class="class-info">教室：3220教室</div>
-      <a class="material-link" href="https://rp.reitaku-u.ac.jp/uprx/up/jg/jga023/Jga02302.xhtml" target="_blank">
+      <a class="material-link" href="https://rp.reitaku-u.ac.jp/" target="_blank">
         授業資料を開く（ログイン必要）
       </a>
+      <p class="note">※麗澤大学ポータルにログイン後、教務システム内の「人工知能入門」授業資料ページにアクセスしてください。</p>
     </div>
   </div>
 
