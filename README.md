@@ -1,5 +1,3 @@
-授業資料管理
-<授業資料管理>
 <html lang="ja">
 <head>
   <meta charset="UTF-8" />
