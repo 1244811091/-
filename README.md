@@ -16,13 +16,11 @@
     .navbar-brand {
       font-size: 2rem;
       color: #007bff !important;
+      letter-spacing: 1px;
     }
     .nav-link {
       font-size: 1.1rem;
       margin-right: 10px;
-    }
-    .dropdown-menu {
-      min-width: 180px;
     }
     .main-card {
       margin: 40px auto;
@@ -87,25 +85,17 @@
   <div class="container-fluid">
     <a class="navbar-brand fw-bold" href="#">授業資料管理</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="ナビゲーションの切り替え">
+      aria-controls="navbarNav" aria-expanded="false" aria-label="ナビゲーション切り替え">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto align-items-lg-center">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">今日の授業</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">課題</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">全部の授業</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">お知らせ</a>
-        </li>
+        <li class="nav-item"><a class="nav-link active" href="#">今日の授業</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">課題</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">全部の授業</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">お知らせ</a></li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
             メニュー
           </a>
           <ul class="dropdown-menu dropdown-menu-end">
@@ -147,10 +137,8 @@
     <div class="class-title">人工知能入門</div>
     <div class="class-info">時間：16:50 - 18:30</div>
     <div class="class-info">教室：3220教室</div>
-    <a class="material-link" href="https://rp.reitaku-u.ac.jp/" target="_blank">
-      授業資料を開く（ログイン必要）
-    </a>
-    <p class="note">※麗澤大学ポータルにログイン後、教務システム内の「人工知能入門」資料ページにアクセスしてください。</p>
+    <a class="material-link" href="https://rp.reitaku-u.ac.jp/" target="_blank">授業資料を開く（ログイン必要）</a>
+    <p class="note">※麗澤大学ポータルにログイン後、教務システム内で資料を確認してください。</p>
   </div>
 </div>
 
@@ -159,6 +147,5 @@
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
 </body>
 </html>
