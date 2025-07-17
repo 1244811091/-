@@ -1,9 +1,9 @@
+<!DOCTYPE html>
 <html lang="ja">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>麗澤学生ポータル</title>
-  <!-- Bootstrap CDN -->
+  <title>授業資料管理</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     body {
@@ -15,15 +15,8 @@
     }
     .navbar-brand {
       font-size: 2rem;
-      letter-spacing: 2px;
       color: #007bff !important;
-    }
-    .nav-link {
-      font-size: 1.1rem;
-      margin-right: 10px;
-    }
-    .dropdown-menu {
-      min-width: 180px;
+      margin: auto;
     }
     .main-card {
       margin: 40px auto;
@@ -34,17 +27,11 @@
       padding: 2rem 2.5rem;
     }
     .main-title {
-      font-size: 2.2rem;
+      font-size: 2rem;
       font-weight: bold;
       color: #007bff;
+      text-align: center;
       margin-bottom: 1.5rem;
-      text-align: center;
-    }
-    .footer {
-      text-align: center;
-      color: #888;
-      margin-top: 40px;
-      font-size: 0.95rem;
     }
     .class-card {
       border: 1px solid #e0e7ef;
@@ -64,89 +51,61 @@
       margin-bottom: 0.5rem;
     }
     .material-link {
-      color: #fff !important;
+      color: #fff;
       background: #007bff;
       padding: 6px 18px;
       border-radius: 6px;
       text-decoration: none;
       font-weight: bold;
-      transition: background 0.2s;
       display: inline-block;
     }
     .material-link:hover {
       background: #0056b3;
-      text-decoration: none;
+    }
+    .footer {
+      text-align: center;
+      color: #888;
+      margin-top: 40px;
+      font-size: 0.95rem;
     }
   </style>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-white">
-  <div class="container-fluid">
-    <a class="navbar-brand fw-bold" href="#">授業資料管理</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="ナビゲーションの切り替え">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto align-items-lg-center">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">今日の授業</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">課題</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">全部の授業</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">お知らせ</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            メニュー
-          </a>
-          <ul class="dropdown-menu dropdown-menu-end">
-            <li><a class="dropdown-item" href="#">プロフィール</a></li>
-            <li><a class="dropdown-item" href="#">設定</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">ログアウト</a></li>
-          </ul>
-        </li>
-        <li class="nav-item ms-3">
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="検索" aria-label="検索">
-            <button class="btn btn-outline-primary" type="submit">検索</button>
-          </form>
-        </li>
-      </ul>
+  <nav class="navbar bg-white">
+    <div class="container-fluid justify-content-center">
+      <a class="navbar-brand fw-bold" href="#">授業資料管理</a>
+    </div>
+  </nav>
+
+  <div class="main-card">
+    <div class="main-title">今日の授業資料</div>
+
+    <div class="class-card">
+      <div class="class-title">UX/UIデザイン</div>
+      <div class="class-info">時間：10:40 - 12:20</div>
+      <div class="class-info">教室：3220教室</div>
+      <a class="material-link" href="https://example.com/material1" target="_blank">授業資料を開く</a>
+    </div>
+
+    <div class="class-card">
+      <div class="class-title">プロジェクトマネジメント</div>
+      <div class="class-info">時間：15:00 - 16:40</div>
+      <div class="class-info">教室：3101教室</div>
+      <a class="material-link" href="https://example.com/material2" target="_blank">授業資料を開く</a>
+    </div>
+
+    <div class="class-card">
+      <div class="class-title">人工知能入門</div>
+      <div class="class-info">時間：16:50 - 18:30</div>
+      <div class="class-info">教室：3220教室</div>
+      <a class="material-link" href="https://example.com/material3" target="_blank">授業資料を開く</a>
     </div>
   </div>
-</nav>
-<div class="main-card">
-  <div class="main-title">今日の授業資料</div>
-  <!-- 今日の授業カード詳細 -->
-  <div class="class-card">
-    <div class="class-title">UX/UIデザイン</div>
-    <div class="class-info">時間：10:40 - 12:20</div>
-    <div class="class-info">教室：3220教室</div>
-    <a class="material-link" href="https://example.com/material1" target="_blank">授業資料を開く</a>
+
+  <div class="footer">
+    &copy; 2025 麗澤大学 学生ポータル
   </div>
-  <div class="class-card">
-    <div class="class-title">プロジェクトマネジメント</div>
-    <div class="class-info">時間：15:00 - 16:40</div>
-    <div class="class-info">教室：3101教室</div>
-    <a class="material-link" href="https://example.com/material2" target="_blank">授業資料を開く</a>
-  </div>
-  <div class="class-card">
-    <div class="class-title">人工知能入門</div>
-    <div class="class-info">時間：16:50 - 18:30</div>
-    <div class="class-info">教室：3220教室</div>
-    <a class="material-link" href="https://example.com/material3" target="_blank">授業資料を開く</a>
-  </div>
-</div>
-<div class="footer">
-  &copy; 2025 麗澤大学 学生ポータル
-</div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
